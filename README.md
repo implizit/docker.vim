@@ -1,15 +1,18 @@
 dockerfile.vim
 ==============
 
-Syntax highlighting for Dockerfiles
+Syntax highlighting for Dockerfiles.
+
+Got it from Docker repro (they got it from
+<https://github.com/honza/dockerfile.vim>). However, their setting didn't work
+for me.
 
 Installation
 ------------
-With [pathogen](https://github.com/tpope/vim-pathogen), the usual way...
 
 With [Vundle](https://github.com/gmarik/Vundle.vim)
   
-    Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+    Plugin 'docker/docker'
 
 Features
 --------
